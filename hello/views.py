@@ -11,7 +11,7 @@ def index(request):
     #_______________________bot
     PORT = int(os.environ.get('PORT', 5000))
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-    TOKEN = '1384376997:AAFmCkMDUVrfoDlcs7YYKebyG75Fn5zBI-Y'
+    TOKEN = 'Your telegram bot token'
 
    
     def start(update, context):
